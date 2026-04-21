@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="logo-mark" viewBox="0 0 64 64" fill="none">
+    <path d="M12 34C12 20.745 22.745 10 36 10H50V24C50 37.255 39.255 48 26 48H12V34Z" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M22 40C22 30.059 30.059 22 40 22H52" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="24" cy="22" r="3" fill="currentColor"/>
+  </symbol>
+  <symbol id="nav-toggle" viewBox="0 0 24 24" fill="none">
+    <path d="M4 7H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M4 12H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M8 17H20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-support" viewBox="0 0 24 24" fill="none">
+    <path d="M4 13C4 8.582 7.582 5 12 5C16.418 5 20 8.582 20 13V16C20 17.105 19.105 18 18 18H16V12H20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 18V12H4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9 20C9.833 20.667 10.833 21 12 21C13.167 21 14.167 20.667 15 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-training" viewBox="0 0 24 24" fill="none">
+    <path d="M4 7L12 3L20 7L12 11L4 7Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    <path d="M7 9.5V14.5C7 16.433 9.239 18 12 18C14.761 18 17 16.433 17 14.5V9.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M20 9V15" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-download" viewBox="0 0 24 24" fill="none">
+    <path d="M12 4V14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M8 10L12 14L16 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5 18H19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none">
+    <path d="M7.5 4H4.5C3.948 4 3.5 4.448 3.5 5C3.5 13.56 10.44 20.5 19 20.5C19.552 20.5 20 20.052 20 19.5V16.5L15.5 14.5L13 17C9.9 15.7 7.3 13.1 6 10L8.5 7.5L7.5 4Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="hero-orbit" viewBox="0 0 600 340" fill="none">
+    <rect x="1" y="1" width="598" height="338" rx="28" stroke="rgba(245,230,211,0.16)"/>
+    <circle cx="180" cy="170" r="82" stroke="currentColor" stroke-opacity="0.25"/>
+    <circle cx="180" cy="170" r="42" stroke="currentColor" stroke-opacity="0.4"/>
+    <circle cx="180" cy="170" r="8" fill="currentColor"/>
+    <path d="M180 88C254 88 314 116 392 170" stroke="currentColor" stroke-opacity="0.5" stroke-dasharray="6 10"/>
+    <path d="M180 252C258 252 320 228 420 190" stroke="currentColor" stroke-opacity="0.3" stroke-dasharray="6 10"/>
+    <rect x="360" y="84" width="154" height="54" rx="18" stroke="currentColor" stroke-opacity="0.4"/>
+    <rect x="398" y="158" width="126" height="54" rx="18" stroke="currentColor" stroke-opacity="0.4"/>
+    <rect x="328" y="232" width="164" height="54" rx="18" stroke="currentColor" stroke-opacity="0.4"/>
+    <circle cx="376" cy="111" r="6" fill="currentColor"/>
+    <circle cx="414" cy="185" r="6" fill="currentColor"/>
+    <circle cx="344" cy="259" r="6" fill="currentColor"/>
+  </symbol>
+</svg>
