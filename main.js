@@ -99,31 +99,6 @@ function initShowcaseReveal() {
   });
 }
 
-function initSideRail() {
-  const links = Array.from(document.querySelectorAll(".side-nav__link"));
-  const sections = Array.from(document.querySelectorAll("[data-nav]"));
-  const progress = document.querySelector(".side-nav__progress-line");
-  if (!links.length || !sections.length || !progress) return;
-
-  function setActiveNavItem(label) {
-    const index = links.findIndex((link) => link.textContent.trim() === label);
-    if (index === -1) return;
-    links.forEach((link, i) => link.classList.toggle("is-active", i === index));
-    const scale = Math.max((index + 1) / links.length, 0.12);
-    gsap.to(progress, { scaleY: scale, duration: 0.35, ease: "power2.out" });
-  }
-
-  sections.forEach((section) => {
-    ScrollTrigger.create({
-      trigger: section,
-      start: "top center",
-      end: "bottom center",
-      onEnter: () => setActiveNavItem(section.dataset.nav),
-      onEnterBack: () => setActiveNavItem(section.dataset.nav),
-    });
-  });
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   initHeroEntrance(".hero__content", ".js-hero-item");
   initParallax([
@@ -133,7 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initLineReveal(".section-heading");
   initBlastMenu(".menu-toggle", ".nav-overlay", ".nav-item");
   initShowcaseReveal();
-  initSideRail();
 
   document.fonts.ready.then(() => {
     ScrollTrigger.refresh();
