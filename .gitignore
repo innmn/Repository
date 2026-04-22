@@ -1,0 +1,10 @@
+*
+!.gitignore
+!assets/
+!assets/icons.svg
+!index.html
+!main.js
+!style.css
+!products.html
+!products.css
+!products.js
